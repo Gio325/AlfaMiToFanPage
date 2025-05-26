@@ -336,36 +336,6 @@ footer {
 }
 
 
-@media (max-width: 768px) {
-  .intro {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .intro img {
-    margin-top: 24px;
-  }
-
-  .header {
-    flex-direction: column;
-    gap: 8px;
-  }
-
-  nav ul {
-    flex-direction: column;
-    align-items: center;
-    gap: 8px;
-  }
-
-  .spec-section h2 {
-    font-size: 28px;
-  }
-
-  .spec-section p,
-  .spec-section ul li {
-    font-size: 16px;
-  }
-}
 /* -------------css storia-------------- */
 
 .header {
@@ -525,18 +495,67 @@ footer {
   background-color: #f8f8f8;
   border-top: 1px solid #ddd;
 }
+@media (max-width: 480px) {
+  .content1 {
+    padding: 60px 20px;
+    background-position: center;
+    background-size: cover;
+  }
 
-@media (max-width: 768px) {
-  .intro {
+  .content1 p {
+    font-size: 24px;
+  }
+
+  .prop-card {
     flex-direction: column;
+    align-items: center;
   }
 
-  .intro .textcont {
-    text-align: center;
+  .prop-card p {
+    font-size: 16px;
+    padding: 8px 16px;
   }
 
-  .story-section, .spec-section {
-    padding: 30px 15px;
+  .textrev {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .good,
+  .not-so-good {
+    max-width: 90%;
+  }
+
+  .intro h1,
+  .spec-section h2,
+  .story-section h2 {
+    font-size: 24px;
+  }
+
+  .intro p,
+  .spec-section p,
+  .story-section p {
+    font-size: 16px;
+  }
+
+  .spec-section ul li {
+    font-size: 15px;
+    padding: 8px 12px;
+  }
+
+  .header nav ul {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  button {
+    font-size: 14px;
+    padding: 10px 12px;
+  }
+
+  .video-wrapper iframe {
+    width: 100%;
+    height: auto;
   }
 }
 
